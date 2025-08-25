@@ -294,18 +294,22 @@ h6{
     }
     .box2{
         grid-row: 1;
+        overflow: hidden;
         
     }
     .box4{
         grid-row: 2;
+        overflow: hidden;
         padding: 10px;
     }
     .box5{
         grid-row: 3;
         overflow: hidden;
+        overflow: hidden;
     }
     .box8{
         grid-row: 5;
+        overflow: hidden;
         padding: 10px;
          
     }
@@ -314,18 +318,22 @@ h6{
     }
     .box7{
         grid-row: 6;
+        overflow: hidden;
         padding: 10px;
     }
     .box6{
         grid-row:7;
+        overflow: hidden;
         padding: -30px;
     }
     .box1{
         grid-row: 4;
+        overflow: hidden;
         padding: 30px;
     }
     .box3{
         grid-row: 8;
+        overflow: hidden;
         height: 500px;
         
         
@@ -390,4 +398,5 @@ h6{
     transform:scale(1.05);
     transition-duration: 0.3s;
 }
+
 
