@@ -23,6 +23,7 @@
     display: flex;
     background-color: hsl(256, 67%, 59%);
     flex-direction: column;
+    overflow: hidden;
     
     color: aliceblue;
     border-radius: 20px;
@@ -36,6 +37,7 @@
     justify-content: center;
     align-items: center;
     justify-items: start;
+    overflow: hidden;
 
     
 }
@@ -46,6 +48,7 @@
     
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 .box6{
     grid-row: span 3;
@@ -62,6 +65,7 @@
     background-color: hsl(256, 67%, 59%);
     display: inline-flex;
     column-gap: 50px;
+    overflow: hidden;
 }
 
 .box3{
@@ -70,6 +74,7 @@
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 .box4{
     grid-row: span 2;
@@ -78,6 +83,7 @@
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 .box7{
     grid-row: span 2;
@@ -85,6 +91,7 @@
     background-color: rgb(238, 235, 231);
     display: inline-flex;
     flex-direction: column;
+    overflow: hidden;
 }
 .text1{
   font-size: 12px;
@@ -398,5 +405,6 @@ h6{
     transform:scale(1.05);
     transition-duration: 0.3s;
 }
+
 
 
